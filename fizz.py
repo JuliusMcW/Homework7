@@ -1,16 +1,16 @@
 
-def buzz(a):
+def buzz():
 	x=1
 	z="1"
-	y="Print "
-	while x<=a:
+	y=" "
+	while x<=100:
 		z=str(x)
 		if x%3==0:
-			z="fizz"
+			z="Fizz"
 			if x%5==0:
-				z=z+"buzz"	
+				z=z+"Buzz"	
 		elif x%5==0:
-			z="buzz"		
+			z="Buzz"		
 		y=y+z+' '
 		x=x+1
-	return y		
+	print(y)	
