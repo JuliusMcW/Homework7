@@ -6,7 +6,9 @@ def buzz(a):
 	while x<=a:
 		z=str(x)
 		if x%3==0:
-			z="fizz"	
+			z="fizz"
+			if x%5==0:
+				z=z+"buzz"	
 		elif x%5==0:
 			z="buzz"		
 		y=y+z+' '
