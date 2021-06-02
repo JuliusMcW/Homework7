@@ -12,3 +12,6 @@ class Tester(unittest.TestCase):
     def test_leap3(self):
         result = leap.leapy(2100)
         self.assertEqual(result,False)
+    def test_leap4(self):
+        result = leap.leapy(2004)
+        self.assertEqual(result,True)
